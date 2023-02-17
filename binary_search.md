@@ -1,6 +1,6 @@
 Binary search là một thuật toán tìm kiếm hiệu quả được sử dụng để tìm kiếm phần tử trong một mảng đã được sắp xếp. Thuật toán này đưa ra giả định rằng mảng đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần, và từ đó có thể tìm kiếm nhanh chóng bằng cách chia mảng thành các phần bằng nhau và so sánh giá trị tại giữa mảng với giá trị cần tìm. Nếu giá trị tại giữa mảng nhỏ hơn giá trị cần tìm, thuật toán sẽ tìm kiếm trong mảng con bên phải của giá trị đó, và nếu giá trị tại giữa mảng lớn hơn giá trị cần tìm, thuật toán sẽ tìm kiếm trong mảng con bên trái của giá trị đó. Thuật toán này lặp lại quá trình trên đến khi tìm thấy giá trị cần tìm hoặc không thể tìm thấy giá trị đó trong mảng.
 
-Trong C++, chúng ta có thể sử dụng hàm std::binary_search trong thư viện <algorithm> để thực hiện tìm kiếm nhị phân trên một mảng. Hàm này có cú pháp như sau:
+Trong **C++**, chúng ta có thể sử dụng hàm `std::binary_search` trong thư viện <algorithm> để thực hiện tìm kiếm nhị phân trên một mảng. Hàm này có cú pháp như sau:
 
 `c++`
 ```cpp
