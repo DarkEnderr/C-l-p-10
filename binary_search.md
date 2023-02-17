@@ -37,7 +37,7 @@ int main()
 ```
 Đầu ra sẽ là:
 
-terminal
+`terminal`
 ```cpp
 Value 5 found in the array.
 ```
