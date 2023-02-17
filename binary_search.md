@@ -2,7 +2,7 @@ Binary search là một thuật toán tìm kiếm hiệu quả được sử d�
 
 Trong C++, chúng ta có thể sử dụng hàm std::binary_search trong thư viện <algorithm> để thực hiện tìm kiếm nhị phân trên một mảng. Hàm này có cú pháp như sau:
 
-cpp
+c++
 ```cpp
 template< class ForwardIt, class T >
 bool binary_search( ForwardIt first, ForwardIt last, const T& value );
@@ -11,7 +11,7 @@ first và last là các iterators (con trỏ) tới phần đầu và phần cu�
 value là giá trị cần tìm trong mảng.
 Hàm trả về true nếu giá trị value có trong mảng, ngược lại trả về false.
 
-Dưới đây là một ví dụ về việc sử dụng hàm std::binary_search để tìm kiếm phần tử trong một mảng đã được sắp xếp:
+Dưới đây là một ví dụ về việc sử dụng hàm `std::binary_search` để tìm kiếm phần tử trong một mảng đã được sắp xếp:
 
 c++
 ```cpp
@@ -37,7 +37,7 @@ int main()
 ```
 Đầu ra sẽ là:
 
-c
+terminal
 ```cpp
 Value 5 found in the array.
 ```
